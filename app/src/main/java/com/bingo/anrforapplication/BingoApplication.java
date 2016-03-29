@@ -37,7 +37,7 @@ public class BingoApplication extends Application {
 		super.onCreate();
 		if (isStartWaitProcess())
 			return;
-		SystemClock.sleep(10 * 1000l);
+		SystemClock.sleep(5 * 1000l);
 		getStartWaitTempFile().delete();
 	}
 

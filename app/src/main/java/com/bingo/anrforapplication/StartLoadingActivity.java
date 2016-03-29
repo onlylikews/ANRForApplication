@@ -23,6 +23,7 @@ public class StartLoadingActivity extends Activity {
 					Thread.sleep(50);
 				}
 				finish();
+				Thread.sleep(500);//防止黑屏
 				System.exit(0);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
