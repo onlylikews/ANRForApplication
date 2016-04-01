@@ -15,6 +15,7 @@
             android:process=":appStarting"
             android:screenOrientation="portrait"/>
         <activity
+            android:theme="@style/AppStartLoad"
             android:name=".MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>

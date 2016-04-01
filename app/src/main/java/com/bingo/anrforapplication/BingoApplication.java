@@ -34,9 +34,9 @@ public class BingoApplication extends Application {
 
 	@Override
 	public void onCreate() {
-		super.onCreate();
 		if (isStartWaitProcess())
 			return;
+		super.onCreate();
 		SystemClock.sleep(5 * 1000l);
 		getStartWaitTempFile().delete();
 	}
